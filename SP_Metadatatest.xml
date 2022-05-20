@@ -39,30 +39,30 @@ tNhK</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODesc
       <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://testspidauth.auth.us-east-1.amazoncognito.com" index="0" isDefault="true" />
       <md:AttributeConsumingService index="0" isDefault="true">
-         <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">MITD</md:ServiceName>
+         <md:ServiceName xml:lang="it" xmlns:xml="https://demo.spid.gov.it">MITD</md:ServiceName>
 		 <md:RequestedAttribute Name="name" />
          <md:RequestedAttribute Name="email" />
       </md:AttributeConsumingService>
 	  <md:AttributeConsumingService index="1">
-         <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">MITD Portal</md:ServiceName>
+         <md:ServiceName xml:lang="it" xmlns:xml="https://demo.spid.gov.it">MITD Portal</md:ServiceName>
 		 <md:RequestedAttribute Name="name" />
          <md:RequestedAttribute Name="email" />
       </md:AttributeConsumingService>
 	   <md:AttributeConsumingService index="2">
-         <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">MITD Portal VFP</md:ServiceName>
+         <md:ServiceName xml:lang="it" xmlns:xml="https://demo.spid.gov.it">MITD Portal VFP</md:ServiceName>
 		 <md:RequestedAttribute Name="name" />
          <md:RequestedAttribute Name="email" />
       </md:AttributeConsumingService>
 	  <md:AttributeConsumingService index="3">
-         <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">MITD Portal VFP</md:ServiceName>
+         <md:ServiceName xml:lang="it" xmlns:xml="https://demo.spid.gov.it">MITD Portal VFP</md:ServiceName>
 		 <md:RequestedAttribute Name="name" />
          <md:RequestedAttribute Name="email" />
       </md:AttributeConsumingService>
    </md:SPSSODescriptor>
    <md:Organization>
-      <md:OrganizationName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">TestSpid</md:OrganizationName>
-      <md:OrganizationDisplayName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">TestSpid</md:OrganizationDisplayName>
-      <md:OrganizationURL xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">https://testspidauth.auth.us-east-1.amazoncognito.com</md:OrganizationURL>
+      <md:OrganizationName xml:lang="it" xmlns:xml="https://testspidauth.auth.us-east-1.amazoncognito.com">TestSpid</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it" xmlns:xml="https://testspidauth.auth.us-east-1.amazoncognito.com">TestSpid</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it" xmlns:xml="https://testspidauth.auth.us-east-1.amazoncognito.com">https://testspidauth.auth.us-east-1.amazoncognito.com</md:OrganizationURL>
    </md:Organization>
    <md:ContactPerson contactType="other">
       <md:Extensions>
