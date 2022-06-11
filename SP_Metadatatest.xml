@@ -1,94 +1,132 @@
-<?xml version="1.0"?>
-<!-- Esempio di metadata Service Provider
-     Per informazioni sulla compilazione fare riferimento alle Regole Tecniche SPID -->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor entityID="raw.githubusercontent.com/a-valente/Testspid/main/SP_Metadatatest.xml" validUntil="2030-22-28T10:30:00.142Z" ID="_294857jfkajrkoeiTTq4" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+<ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Qn+Gn7l6LNpjyQVRZlG1sRXmJeE25OpRxQpe+0jW3B0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+D8VOLaQC6JTr525ubULEA2xzxx7sbEVWBU8lQlugECruZ57r4x0PWPcYZuuiVyn/6/DRrlvVa+it
+Y7DDX1psTuK/xvMcwxkOEMS7aGj5ynsFdgN6ECvT47FWSbkEBN494kV0gpJZhQF3tgQoVD0qphmX
+Ty39um+tfVidqTYzXlem4VbtsWKKeDoiOltoFxolH8YBqde+TQJHJoL5aUFR8bu/duMKwjPyYWrq
+tBLEtdOhCkXqlRkt9ybfBywgBqF+z881/1WXRZkXR2kwtX2nd9lDDCCMU0cXHKhcjU8Sx+YdghMC
+ZU/ckvTFiRgYWdspoCISJmEKQ4xSYMN1tCUzTDR2kIlUZ/Fn6w8H5ZyLEaCKbYA7oKJ+a7r8TgXH
+Yn3mErwQxaKII26OnCQPWWKA+qxXRCUTwKXHp4H2gmWEwrwgEOllCMK+g/jEdXhoLnL4gjY72PNh
+8IWFW6HJmkI/rda9weM/iIxSVyKTIXxDcxF416Tvtz4EGU1dGfbBzXFU
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lTOuEU0bWlmysEp5iDJPA7JAG9qsgAwDrpn7ttrmZwJwawtDkywLcM+qPsCnXnFTsFQjWzLkskvZ
+z8rAiIT7b2ow0nGB/OEYKDFwJtgfnkDw6FL7NTj5oZxVfw/otGox0VEw1cN7hyaTyEuwXI89yuq6
+XJODpfy1uOi9A09rRU8Q2Jaeri68U7R4l0KkTqfqWsZKtPtstBE/oK+l7HAe6w9TQeWuiPC8Srp/
+rbiACgcowrq3uNt+z68/qNC1RD3peWD3JddXM3pFDTqmaKjYLUkWyE44g8aIewaSZsPHUkxncTdE
+MsMyXUaQczhTk026togMNKNpze/WyiusoQ1wGU9Y1Mh57PcXhEAaHbvQb9uYyPuskF3Kac8r/sL6
+fVxAvtkVNmKovOxFGHaQEqzOxQsyzUXvT7J3jHcvwWmHE8+9bSG8RNTlkI/C1q8lo+s6PFXiNFst
+AVN0F8j7a0HHyE5Y78N6K5pEYin61mNlIJCIr4yw79Dg7lyJHocwWZZN
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFUTCCA7mgAwIBAgIUQ79XYeOD79kKaetmmpIiYaLjaGIwDQYJKoZIhvcNAQENBQAwgagxDTAL
+BgNVBAMMBFRlc3QxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRUwEwYDVQRhDAxQQTpJVC1j
+X2g0NDQxETAPBgNVBAoMCFNwaWRUZXN0MVEwTwYDVQRTDEhodHRwczovL3Jhdy5naXRodWJ1c2Vy
+Y29udGVudC5jb20vR2l1Z2dpb2xhOTEvVGVzdHNwaWQvbWFpbi9UZXN0X3htbC54bWwwHhcNMjIw
+NjA2MDgwNDE5WhcNMzIwNjAzMDgwNDE5WjCBqDENMAsGA1UEAwwEVGVzdDELMAkGA1UEBhMCSVQx
+DTALBgNVBAcMBFJvbWExFTATBgNVBGEMDFBBOklULWNfaDQ0NDERMA8GA1UECgwIU3BpZFRlc3Qx
+UTBPBgNVBFMMSGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9HaXVnZ2lvbGE5MS9U
+ZXN0c3BpZC9tYWluL1Rlc3RfeG1sLnhtbDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGB
+AJUzrhFNG1pZsrBKeYgyTwOyQBvarIAMA66Z+7ba5mcCcGsLQ5MsC3DPqj7Ap15xU7BUI1sy5LJL
+2c/KwIiE+29qMNJxgfzhGCgxcCbYH55A8OhS+zU4+aGcVX8P6LRqMdFRMNXDe4cmk8hLsFyPPcrq
+ulyTg6X8tbjovQNPa0VPENiWnq4uvFO0eJdCpE6n6lrGSrT7bLQRP6CvpexwHusPU0HlrojwvEq6
+f624gAoHKMK6t7jbfs+vP6jQtUQ96Xlg9yXXVzN6RQ06pmio2C1JFshOOIPGiHsGkmbDx1JMZ3E3
+RDLDMl1GkHM4U5NNuraIDDSjac3v1sorrKENcBlPWNTIeez3F4RAGh270G/bmMj7rJBdymnPK/7C
++n1cQL7ZFTZiqLzsRRh2kBKszsULMs1F70+yd4x3L8FphxPPvW0hvETU5ZCPwtavJaPrOjxV4jRb
+LQFTdBfI+2tBx8hOWO/DeiuaRGIp+tZjZSCQiK+MsO/Q4O5ciR6HMFmWTQIDAQABo3EwbzAJBgNV
+HRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAK
+GghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG
+9w0BAQ0FAAOCAYEAAH63Sbq69PF6P/HKjC2QjB/wdNH250NmPQINZOWpRTwlpACweZuRwGmS52bV
+T/y4fxX0Fzp1059Fufh05YHiWqrev/jb/5FU1COzeZWZH73obcsG4Fg1FRLA8aTevP4umml5m0lT
+6a7+YOxzINIZt9QCwXjD7Gh044k00jeCRmhAi4njdb/B3KV8RmKas7/a2bnL2Iq0BR5BXghttC0l
+KWAhKeM3h/+ovZ62Liaz0OX/7iFBgxDreUIuIjEhiIdzqg6YYNS5/mtpwN/l6v3EvxH8ALTP/714
+GUtfvjm62fbri4I/B0QT35BMHiIHRqhbQa1J4LcHUkiqTDZ5PomSz+LC/Q8Eh5JW/nBi2AJb/b5r
+EOPSv4bO5wHbPAEX75KmEBTbCrGevVmB3BoEjoNHwJHNBnhKMKpTA4ieJLsKrPyOBMwGowFD5Xc8
+RULeyH/IBJaS02gwWVZFFsUF4qAVBe621VzSXdljlKdzegaa5WqMKt99M3aN3EjCkpvanYbJ
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
 
-<!-- entityID è una URI che individua univocamente il Service Provider -->
-<md:EntityDescriptor
-    xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
-    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
-    entityID="https://testspidauth.auth.us-east-1.amazoncognito.com/"
-    ID="_681a637-6cd4-434f-92c3-4fed720b2ad8">
-
-    <!-- Il certificato del Service Provider va riportato nei due tag KeyDescriptor
-         qui sotto, senza i delimitatori ‐‐‐ BEGIN CERTIFICATE ‐‐‐ e ‐‐‐ END CERTIFICATE ‐‐‐ -->
-    <md:SPSSODescriptor
-        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
-        AuthnRequestsSigned="true"
-        WantAssertionsSigned="true">
-
-        <md:KeyDescriptor use="signing">
-            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
                 <ds:X509Data>
-<ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAX8hIWCDAAAAAHhthEIwDQYJKoZIhvcNAQELBQAwgZAx
-KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEwSmFuMjAyMl8xNTI5MjQxGDAWBgNV
-BAsMDzAwRDNOMDAwMDAwOGxTejEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
-BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
-HhcNMjIwMjIyMTExMTQ5WhcNMjMwMjIyMDAwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
-ZlNpZ25lZENlcnRfMTBKYW4yMDIyXzE1MjkyNDEYMBYGA1UECwwPMDBEM04wMDAw
-MDA4bFN6MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
-YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
-AQEBBQADggEPADCCAQoCggEBALecsjw9COVLBO/z4ZGHzAKntaHQSF1H2uTlNO9h
-8a1ugXgHiZYYpH11vJYA37EAsHhUuL5/+FtKhd0ekJiRdUsSSvVMy19vn7dcRhX+
-3GoFMXi9BgU3COcgYY5hT1HnPbq2EUY6vZFgX5yGK53I9kqP/sDa3Zp0IiD6vDPf
-soBWADi9sglUWMGd6WTcJr/S41DMJTMnCscd39uHJ4924jBbyzNkgA7edFaVgyLB
-UDeRcGX4AFsjCVThvo98zXpojWEOpCVZ/3AsflrVUbaJZTb2tiWy5vD6OCqfD2Vt
-//lvnvBY32QssnVLzYnXFNCCgSUJiwezKB+Py8fpPe4/Z0kCAwEAAaOCAQAwgf0w
-HQYDVR0OBBYEFG6HMLaJntU3gV8F3Vw0PIjsEzImMA8GA1UdEwEB/wQFMAMBAf8w
-gcoGA1UdIwSBwjCBv4AUbocwtome1TeBXwXdXDQ8iOwTMiahgZakgZMwgZAxKDAm
-BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEwSmFuMjAyMl8xNTI5MjQxGDAWBgNVBAsM
-DzAwRDNOMDAwMDAwOGxTejEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
-BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgF/
-ISFggwAAAAB4bYRCMA0GCSqGSIb3DQEBCwUAA4IBAQBnKcU+NXE/CWkXPE55m9aZ
-cyiyOLbcol3DJM/0KazNxzO/eKNikogHc4l8Stqm5k1seYqmsS7RKxIf+tLhOV+O
-HN7EzGYOD15U1TVdAyssTrX9yIaTyU6+ap49bQD1aztftF0dP2mmW+rJ5VmWNG8s
-JkgRMD1xMChJIbKjcDtAEFAUkQURlYDxJC+JY5d27HvonKVEp7sXjnv20Ft7XpmS
-rMLE/6ZyNfP/apAuOAUIxDReYUjfYR4aBlcc37MFvL57JYzPMLpB0G9eZE6Xhkfe
-nxguHhdS/3W6txEA/23HRAp4XR7pKMAaAiujwd7fDG+62wGORWqxabC24rVrtNhK</ds:X509Certificate>
+                    <ds:X509Certificate>
+						MIIFUTCCA7mgAwIBAgIUQ79XYeOD79kKaetmmpIiYaLjaGIwDQYJKoZIhvcNAQENBQAwgagxDTAL
+						BgNVBAMMBFRlc3QxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRUwEwYDVQRhDAxQQTpJVC1j
+						X2g0NDQxETAPBgNVBAoMCFNwaWRUZXN0MVEwTwYDVQRTDEhodHRwczovL3Jhdy5naXRodWJ1c2Vy
+						Y29udGVudC5jb20vR2l1Z2dpb2xhOTEvVGVzdHNwaWQvbWFpbi9UZXN0X3htbC54bWwwHhcNMjIw
+						NjA2MDgwNDE5WhcNMzIwNjAzMDgwNDE5WjCBqDENMAsGA1UEAwwEVGVzdDELMAkGA1UEBhMCSVQx
+						DTALBgNVBAcMBFJvbWExFTATBgNVBGEMDFBBOklULWNfaDQ0NDERMA8GA1UECgwIU3BpZFRlc3Qx
+						UTBPBgNVBFMMSGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9HaXVnZ2lvbGE5MS9U
+						ZXN0c3BpZC9tYWluL1Rlc3RfeG1sLnhtbDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGB
+						AJUzrhFNG1pZsrBKeYgyTwOyQBvarIAMA66Z+7ba5mcCcGsLQ5MsC3DPqj7Ap15xU7BUI1sy5LJL
+						2c/KwIiE+29qMNJxgfzhGCgxcCbYH55A8OhS+zU4+aGcVX8P6LRqMdFRMNXDe4cmk8hLsFyPPcrq
+						ulyTg6X8tbjovQNPa0VPENiWnq4uvFO0eJdCpE6n6lrGSrT7bLQRP6CvpexwHusPU0HlrojwvEq6
+						f624gAoHKMK6t7jbfs+vP6jQtUQ96Xlg9yXXVzN6RQ06pmio2C1JFshOOIPGiHsGkmbDx1JMZ3E3
+						RDLDMl1GkHM4U5NNuraIDDSjac3v1sorrKENcBlPWNTIeez3F4RAGh270G/bmMj7rJBdymnPK/7C
+						+n1cQL7ZFTZiqLzsRRh2kBKszsULMs1F70+yd4x3L8FphxPPvW0hvETU5ZCPwtavJaPrOjxV4jRb
+						LQFTdBfI+2tBx8hOWO/DeiuaRGIp+tZjZSCQiK+MsO/Q4O5ciR6HMFmWTQIDAQABo3EwbzAJBgNV
+						HRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAK
+						GghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG
+						9w0BAQ0FAAOCAYEAAH63Sbq69PF6P/HKjC2QjB/wdNH250NmPQINZOWpRTwlpACweZuRwGmS52bV
+						T/y4fxX0Fzp1059Fufh05YHiWqrev/jb/5FU1COzeZWZH73obcsG4Fg1FRLA8aTevP4umml5m0lT
+						6a7+YOxzINIZt9QCwXjD7Gh044k00jeCRmhAi4njdb/B3KV8RmKas7/a2bnL2Iq0BR5BXghttC0l
+						KWAhKeM3h/+ovZ62Liaz0OX/7iFBgxDreUIuIjEhiIdzqg6YYNS5/mtpwN/l6v3EvxH8ALTP/714
+						GUtfvjm62fbri4I/B0QT35BMHiIHRqhbQa1J4LcHUkiqTDZ5PomSz+LC/Q8Eh5JW/nBi2AJb/b5r
+						EOPSv4bO5wHbPAEX75KmEBTbCrGevVmB3BoEjoNHwJHNBnhKMKpTA4ieJLsKrPyOBMwGowFD5Xc8
+						RULeyH/IBJaS02gwWVZFFsUF4qAVBe621VzSXdljlKdzegaa5WqMKt99M3aN3EjCkpvanYbJ
+                </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
         </md:KeyDescriptor>
-        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-
-        <!-- Endpoint del Service Provider deputato a ricevere le asserzioni di login.
-             (può essere ripetuto più volte, incrementando l'attributo index) -->
-        <md:AssertionConsumerService
-            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
-            Location="https://testspidauth.auth.us-east-1.amazoncognito.com/spid/acs"
-            index="0"
-            isDefault="true" />
-
-        <!-- Gruppo di attributi predefinito, che il Service Provider potrà richiedere
-             durante in login. Si può specificare più volte. Si raccomanda di limitare
-             gli attributi richiesti ai soli necessari per l'erogazione del proprio servizio. -->
-        <md:AttributeConsumingService index="1">
-            <md:ServiceName xml:lang="it">TestSpid</md:ServiceName>
-            <md:ServiceDescription xml:lang="it">TestSpid</md:ServiceDescription>
-            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
-        </md:AttributeConsumingService>
-
-    </md:SPSSODescriptor>
-
-    <!-- Informazioni generali sul Service Provider -->
-    <md:Organization>
-        <md:OrganizationName xml:lang="it">Spid</md:OrganizationName>
-        <md:OrganizationDisplayName xml:lang="it">Spid</md:OrganizationDisplayName>
-        <md:OrganizationURL xml:lang="it">https://testspidauth.auth.us-east-1.amazoncognito.com/</md:OrganizationURL>
-    </md:Organization>
-
+	  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/saml2/logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/login?response_type=code&client_id=uugirglo5cjavm03tcb7139uh&redirect_uri=https://google.it" index="0"/>
+      <md:AttributeConsumingService index="0" isDefault="true">
+            <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">MITD</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber" isRequired="true" />
+		 <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="email" />
+         <md:RequestedAttribute Name="mobilePhone" />
+         <md:RequestedAttribute Name="digitalAddress" />
+         <md:RequestedAttribute Name="dateOfBirth" />
+         <md:RequestedAttribute Name="countyOfBirth" />
+         <md:RequestedAttribute Name="gender" />
+         <md:RequestedAttribute Name="placeOfBirth" />
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Ciccio</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Ciccio</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">https://cicciotest.it/</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:Public />
+		 <spid:IPACode>PA:IT-PCM_XXXX</spid:IPACode>
+      </md:Extensions>
+      <md:EmailAddress>test@prov.prov.it</md:EmailAddress>
+   </md:ContactPerson>
 </md:EntityDescriptor>
