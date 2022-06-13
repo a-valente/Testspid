@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_294857jfkajrkoeiTTq4" entityID="https://raw.githubusercontent.com/a-valente/Testspid/main/SP_Metadata_test_signed2.xml" validUntil="2030-08-28T10:30:00.142Z"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3eHslKUVWK3YOWnqGyjyXG9aDAmYy4Dg2oLZlfJOLOw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+k7gt/IyJlR4tJWqIlNyDNNYTDLmxdz325wurjzsXUD9vIBBmRfnKULDWRqFEXg0zwJmT67tNjgG2
+6AyHpmdc8n4YSuu2g10M2Z4bsgxzFue8fPlZi4b8uG8SM6fKMX3mRF1nA4wILdgRqeRz9GPFs/hO
+n3XLUlMJt4C9BilYEqCclx3QrpRi0zaVtIVpu/3XN92gekCGD5v3oL1aQD9eS6/m+BaHWs7sFWl0
+5XL22IK03bRJ370yqtrg7vAkTNPADKAhGcyWd54GMhBC4ZPvApUZUdqhSDCyBD9rsyUdpPwsbEve
+Qbw5mX4mk8v8OWalK557UOu3R5Yr0YG16u3lCJsEhQO1mnJm4LEOUalKqUnnKWQ6Sst+J+9dmHv+
+K0i8ybyxs/muNNmvAodg3852tQvRd/M5oIJmbepGGvPReJOthYaYNd3n86qsT2fSmIWcGyYbdcGf
+ykI4k8vSYMrPOmgLUvuw80ZlwhYlzmpQRBbUJpFQMxkXczyTVnNxEX/b
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vRzA6zBrFEH43BzvjcTWM4qU6MXO4VwnNoEi/OmQa0TfTHFOAT/7eJyzWviyKng89+WV9aVTYYe0
++E3LCVpFFfyHujs5UmEw+qOmx0zF4+QhhGiM2rUENPz7+EN02b7MaOBhYGpKPqv+VUVqpXHbqJDG
+Tw74/xaPHnE6XaMAEKHlt/8q8DR1bAfjhq2xj0p0wWQvLxW2zllRue/shzqPcqW+neBIlqvQP/jU
+l0cubYwUMIB05rrbriA0WcJxkRfOJtZHH31ExwEjFWqNU2OgkRCGxwp3MqdjrTJK/kzjDrT37bQW
+jv63ALVoD9rMSAlpqmhxgWS+BL8BhKp6UlRe/ZSArHxkM1zPjX9ONh4Hpc8nxhBtNmeduIDFt+nI
+6U8VS1JxzZ5OTH+gotg869roEorC6PHs77oZZyiJmC3Xg5RXKmleS6pBtP1a2tVLJBBkTpoU1klC
+5AJWHxvZKsorGXA7AXzw9gKAJxMOHmmI3S/fivROjGoAmnGzqgYej4Pz
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFVzCCA7+gAwIBAgIUPUly0Z0ZioBdvi7p0cc/+y3DyOUwDQYJKoZIhvcNAQENBQAwgasxDTAL
+BgNVBAMMBFRFU1QxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRcwFQYDVQRhDA5QQTpJVC1Q
+Q01fWFhYWDENMAsGA1UECgwEVEVTVDFWMFQGA1UEUwxNaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNv
+bnRlbnQuY29tL2EtdmFsZW50ZS9UZXN0c3BpZC9tYWluL1NQX01ldGFkYXRhdGVzdC54bWwwHhcN
+MjIwNjEzMDgyNzM0WhcNMzIwNjEwMDgyNzM0WjCBqzENMAsGA1UEAwwEVEVTVDELMAkGA1UEBhMC
+SVQxDTALBgNVBAcMBFJvbWExFzAVBgNVBGEMDlBBOklULVBDTV9YWFhYMQ0wCwYDVQQKDARURVNU
+MVYwVAYDVQRTDE1odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYS12YWxlbnRlL1Rl
+c3RzcGlkL21haW4vU1BfTWV0YWRhdGF0ZXN0LnhtbDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCC
+AYoCggGBAL0cwOswaxRB+Nwc743E1jOKlOjFzuFcJzaBIvzpkGtE30xxTgE/+3ics1r4sip4PPfl
+lfWlU2GHtPhNywlaRRX8h7o7OVJhMPqjpsdMxePkIYRojNq1BDT8+/hDdNm+zGjgYWBqSj6r/lVF
+aqVx26iQxk8O+P8Wjx5xOl2jABCh5bf/KvA0dWwH44atsY9KdMFkLy8Vts5ZUbnv7Ic6j3Klvp3g
+SJar0D/41JdHLm2MFDCAdOa6264gNFnCcZEXzibWRx99RMcBIxVqjVNjoJEQhscKdzKnY60ySv5M
+4w609+20Fo7+twC1aA/azEgJaapocYFkvgS/AYSqelJUXv2UgKx8ZDNcz41/TjYeB6XPJ8YQbTZn
+nbiAxbfpyOlPFUtScc2eTkx/oKLYPOva6BKKwujx7O+6GWcoiZgt14OUVyppXkuqQbT9WtrVSyQQ
+ZE6aFNZJQuQCVh8b2SrKKxlwOwF88PYCgCcTDh5piN0v34r0ToxqAJpxs6oGHo+D8wIDAQABo3Ew
+bzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEF
+BQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjAN
+BgkqhkiG9w0BAQ0FAAOCAYEAET4bjyX1zjv23u3WC4Sp6TAh8uCO/2v/J1PlDwFleaVjACgCNuzK
+MQvVAzHYB8ToaMUBxaea/13Cq28rusU6WckBpRvG8cw+eoOD8rM2tzCsL4T4jNPMqNOy7mJJoglF
+VQpx3bpFQLG+2LYqyf+34kG0n+CnobbBIr0LX1GJMns6pDH6yFeMP7RkqBAcAm+CpTmLokZ20IEe
+kYHfSXu0YCSHb1k1ENijI3FSv/S3awmBR0MVKCSalZDKdIOI3gLFu7j9VoRSNpgkxjkNwkgrnEyg
+6sereblMsEbc35gCYbAUYdEOP+sTaBe+PHSXBEu9WHLAIRwJ2ah9pRKw5zPbB45QSfyfkZJCZegR
+4+qKhScq2xDwWzSCS41JJKnj2mEk4NWe8xLBkpOb4CTNGyBrxsQ/SWDPEnB7/8wsta/G48pSTAEY
+zuOD4qZg8siLG9H8ACQgl6Z8QolQbVVqePFCsKXorRdPLZjdL8JgQY9lGU8ivSq/H6oUTIGIfMnt
+7ISU
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+						MIIFUTCCA7mgAwIBAgIUQ79XYeOD79kKaetmmpIiYaLjaGIwDQYJKoZIhvcNAQENBQAwgagxDTAL
+						BgNVBAMMBFRlc3QxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRUwEwYDVQRhDAxQQTpJVC1j
+						X2g0NDQxETAPBgNVBAoMCFNwaWRUZXN0MVEwTwYDVQRTDEhodHRwczovL3Jhdy5naXRodWJ1c2Vy
+						Y29udGVudC5jb20vR2l1Z2dpb2xhOTEvVGVzdHNwaWQvbWFpbi9UZXN0X3htbC54bWwwHhcNMjIw
+						NjA2MDgwNDE5WhcNMzIwNjAzMDgwNDE5WjCBqDENMAsGA1UEAwwEVGVzdDELMAkGA1UEBhMCSVQx
+						DTALBgNVBAcMBFJvbWExFTATBgNVBGEMDFBBOklULWNfaDQ0NDERMA8GA1UECgwIU3BpZFRlc3Qx
+						UTBPBgNVBFMMSGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9HaXVnZ2lvbGE5MS9U
+						ZXN0c3BpZC9tYWluL1Rlc3RfeG1sLnhtbDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGB
+						AJUzrhFNG1pZsrBKeYgyTwOyQBvarIAMA66Z+7ba5mcCcGsLQ5MsC3DPqj7Ap15xU7BUI1sy5LJL
+						2c/KwIiE+29qMNJxgfzhGCgxcCbYH55A8OhS+zU4+aGcVX8P6LRqMdFRMNXDe4cmk8hLsFyPPcrq
+						ulyTg6X8tbjovQNPa0VPENiWnq4uvFO0eJdCpE6n6lrGSrT7bLQRP6CvpexwHusPU0HlrojwvEq6
+						f624gAoHKMK6t7jbfs+vP6jQtUQ96Xlg9yXXVzN6RQ06pmio2C1JFshOOIPGiHsGkmbDx1JMZ3E3
+						RDLDMl1GkHM4U5NNuraIDDSjac3v1sorrKENcBlPWNTIeez3F4RAGh270G/bmMj7rJBdymnPK/7C
+						+n1cQL7ZFTZiqLzsRRh2kBKszsULMs1F70+yd4x3L8FphxPPvW0hvETU5ZCPwtavJaPrOjxV4jRb
+						LQFTdBfI+2tBx8hOWO/DeiuaRGIp+tZjZSCQiK+MsO/Q4O5ciR6HMFmWTQIDAQABo3EwbzAJBgNV
+						HRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAK
+						GghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG
+						9w0BAQ0FAAOCAYEAAH63Sbq69PF6P/HKjC2QjB/wdNH250NmPQINZOWpRTwlpACweZuRwGmS52bV
+						T/y4fxX0Fzp1059Fufh05YHiWqrev/jb/5FU1COzeZWZH73obcsG4Fg1FRLA8aTevP4umml5m0lT
+						6a7+YOxzINIZt9QCwXjD7Gh044k00jeCRmhAi4njdb/B3KV8RmKas7/a2bnL2Iq0BR5BXghttC0l
+						KWAhKeM3h/+ovZ62Liaz0OX/7iFBgxDreUIuIjEhiIdzqg6YYNS5/mtpwN/l6v3EvxH8ALTP/714
+						GUtfvjm62fbri4I/B0QT35BMHiIHRqhbQa1J4LcHUkiqTDZ5PomSz+LC/Q8Eh5JW/nBi2AJb/b5r
+						EOPSv4bO5wHbPAEX75KmEBTbCrGevVmB3BoEjoNHwJHNBnhKMKpTA4ieJLsKrPyOBMwGowFD5Xc8
+						RULeyH/IBJaS02gwWVZFFsUF4qAVBe621VzSXdljlKdzegaa5WqMKt99M3aN3EjCkpvanYbJ
+                </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+	  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/saml2/logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/oauth2/authorize" index="0" isDefault="true"/>
+      <md:AttributeConsumingService index="0" isDefault="true">
+         <md:ServiceName xml:lang="it">MITD</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+		   <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="email"/>
+         <md:RequestedAttribute Name="mobilePhone"/>
+         <md:RequestedAttribute Name="digitalAddress"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="countyOfBirth"/>
+         <md:RequestedAttribute Name="gender"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Ciccio</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Ciccio</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://cicciotest.it/</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:Public/>
+		 <spid:IPACode>PA:IT-PCM_XXXX</spid:IPACode>
+      </md:Extensions>
+      <md:EmailAddress>test@prov.prov.it</md:EmailAddress>
+   </md:ContactPerson>
+</md:EntityDescriptor>
