@@ -102,7 +102,7 @@ zuOD4qZg8siLG9H8ACQgl6Z8QolQbVVqePFCsKXorRdPLZjdL8JgQY9lGU8ivSq/H6oUTIGIfMnt
         </md:KeyDescriptor>
 	  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/saml2/logout"/>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/login" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/oauth2/authorize" index="0" isDefault="true"/>
       <md:AttributeConsumingService index="0" isDefault="true">
          <md:ServiceName xml:lang="it">MITD</md:ServiceName>
          <md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
