@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_294857jfkajrkoeiTTq4" entityID="https://raw.githubusercontent.com/a-valente/Testspid/main/SP_Metadatatest.xml" validUntil="2030-08-28T10:30:00.142Z"><ds:Signature>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_294857jfkajrkoeiTTq4" entityID="https://raw.githubusercontent.com/a-valente/Testspid/main/SP_Metadata_test_signed.xml" validUntil="2030-08-28T10:30:00.142Z"><ds:Signature>
 <ds:SignedInfo>
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
