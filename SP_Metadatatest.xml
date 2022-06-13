@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor entityID="raw.githubusercontent.com/a-valente/Testspid/main/SP_Metadatatest.xml" validUntil="2030-22-28T10:30:00.142Z" ID="_294857jfkajrkoeiTTq4" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor entityID="https://raw.githubusercontent.com/a-valente/Testspid/main/SP_Metadatatest.xml" validUntil="2030-08-28T10:30:00.142Z" ID="_294857jfkajrkoeiTTq4" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
 <ds:Signature>
 <ds:SignedInfo>
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
@@ -102,11 +102,11 @@ RULeyH/IBJaS02gwWVZFFsUF4qAVBe621VzSXdljlKdzegaa5WqMKt99M3aN3EjCkpvanYbJ
         </md:KeyDescriptor>
 	  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/saml2/logout"/>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/login" index="0"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spiddemotest.auth.us-east-1.amazoncognito.com/login" index="0" isDefault="true"/>
       <md:AttributeConsumingService index="0" isDefault="true">
-            <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">MITD</md:ServiceName>
+         <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">MITD</md:ServiceName>
          <md:RequestedAttribute Name="fiscalNumber" isRequired="true" />
-		 <md:RequestedAttribute Name="name" />
+		   <md:RequestedAttribute Name="name" />
          <md:RequestedAttribute Name="familyName" />
          <md:RequestedAttribute Name="email" />
          <md:RequestedAttribute Name="mobilePhone" />
